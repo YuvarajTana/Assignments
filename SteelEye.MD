@@ -29,9 +29,9 @@ class SomeListComponent extends React.Component {
 
 export default SomeListComponent
 ```
-// What does the following component do?
-// Are there any problems with it? If so, what are they?
-// Are there any improvements/changes you would make?
+- What does the following component do?
+- Are there any problems with it? If so, what are they?
+- Are there any improvements/changes you would make?
 
 # Here is My anwsers 
 1. What does the following component do ?
@@ -49,7 +49,7 @@ export default SomeListComponent
      For instance, the List component makes sure to map over the array to render a list of ListItem components for each item as child component
 
 
-// Here is Refactored code
+# Here is Refactored code
 ```jsx
 import React, { Component } from 'react';
 
