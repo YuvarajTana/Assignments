@@ -33,6 +33,7 @@ export default SomeListComponent
 // Are there any problems with it? If so, what are they?
 // Are there any improvements/changes you would make?
 
+# Here is My anwsers 
 1. What does the following component do ?
   The Component does creating User Interface of displaying list of items with basic styles. 
   It supports basic funtionality by logging clicked item by attahing click event to list item.
@@ -72,7 +73,9 @@ class ListComponent extends Component{
     );
   }
 }
+```
 
+```jsx
 class ListItem extends Component{
   render(){
     const { item, handlClick } = this.props
