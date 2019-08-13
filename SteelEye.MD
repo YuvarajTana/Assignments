@@ -29,19 +29,15 @@ class SomeListComponent extends React.Component {
 
 export default SomeListComponent
 ```
-- What does the following component do?
-- Are there any problems with it? If so, what are they?
-- Are there any improvements/changes you would make?
-
-# Here is My anwsers 
-1. What does the following component do ?
+# Here is the question and anwsers 
+1. What does the following component do ?  
   The Component does creating User Interface of displaying list of items with basic styles. 
   It supports basic funtionality by logging clicked item by attahing click event to list item.
 
-2. Are there any problems with it? If so, what are they?
+2. Are there any problems with it? If so, what are they?  
   Yes, there are couple of issues, which creates a reference errors, performance issues and not a clean code 
 
-3. Are there any improvements/changes you would make?
+3. Are there any improvements/changes you would make?  
   Yes, In order to render this component to generate UI for listing items information, the following things are taken cared
   a) The super() needs to be called before this.state to avoid refernce errors 
   b) Need to have uniquie keys on li elements, Its crucial for avoiding needless rerender performance hits
